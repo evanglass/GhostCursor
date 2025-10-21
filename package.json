@@ -1,0 +1,48 @@
+{
+  "name": "ghost-cursor",
+  "displayName": "Ghost Cursor",
+  "description": "Allows dropping ghost cursors with Ctrl+Alt+A and activating them with Ctrl+Alt+D.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:ghost-cursor.dropGhost",
+    "onCommand:ghost-cursor.activateGhosts"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ghost-cursor.dropGhost",
+        "title": "Drop Ghost Cursor"
+      },
+      {
+        "command": "ghost-cursor.activateGhosts",
+        "title": "Activate Ghost Cursors"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ghost-cursor.dropGhost",
+        "key": "ctrl+alt+a",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "ghost-cursor.activateGhosts",
+        "key": "ctrl+alt+d",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
