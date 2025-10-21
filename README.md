@@ -1,71 +1,28 @@
-# ghost-cursor README
+# Ghost Cursor
 
-Allows dropping ghost cursors with Ctrl+Alt+A and activating them with Ctrl+Alt+D.
+![Ghost Cursor Icon](images/icon.png)
+
+## Description
+
+Ghost Cursor is a Visual Studio Code extension that provides a "ghost cursor" feature, allowing you to drop and activate secondary cursors for enhanced editing capabilities.
 
 ## Features
 
-- **Drop Ghost Cursor**: Press `Ctrl+Alt+A` to drop a ghost cursor at the current position. The ghost cursor is displayed as a red vertical bar and stays in place even when you navigate with arrow keys or mouse.
+- Drop a ghost cursor at any position in the editor. This cursor will not move as you navigate your file with your regular cursor. 
+- Activate the ghost cursor(s) to automatically place cursors at each of the ghost cursor positions.
 
-- **Activate Ghost Cursors**: Press `Ctrl+Alt+D` to activate all dropped ghost cursors, turning them into regular multi-cursors for simultaneous editing.
+## Installation
 
-- **Multiple Cursors**: You can drop multiple ghost cursors throughout your code before activating them.
+1. Open Visual Studio Code.
+2. Go to the Extensions view (Ctrl+Shift+X).
+3. Search for "Ghost Cursor" and install the extension.
+4. Alternatively, download the .vsix file and install it manually.
 
 ## Usage
 
-1. Position your cursor where you want to drop a ghost cursor.
-2. Press `Ctrl+Alt+A` to drop the ghost cursor.
-3. Repeat to drop more ghost cursors.
-4. Press `Ctrl+Alt+D` to activate all ghost cursors as multi-cursors.
+- By default the **Drop Ghost Cursor** action is assigned the keybind of **Ctrl+Alt+A**. Use this key combination to drop a ghost cursor at the current cursor position. Running the action on a position which already has a ghost cursor will remove that ghost cursor. 
+- You can then activate all the placed ghost cursors at once by running the **Activate Ghost Cursors** action, which is assigned a default keybind of **Ctrl+Alt+D**.
 
-## Requirements
+## License
 
-VS Code 1.105.0 or higher.
-
-## Extension Settings
-
-None.
-
-## Known Issues
-
-- Ghost cursors are currently only supported in the active text editor.
-- Positions are stored per workspace and persist across sessions.
-
-## Release Notes
-
-### 0.0.1
-
-Initial release with basic ghost cursor functionality.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This project is licensed under the MIT License.

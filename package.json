@@ -1,8 +1,15 @@
 {
   "name": "ghost-cursor",
+  "author": {"name": "Evan Glasscock", "url": "https://evanglass.me"},
+  "publisher": "evanglass",
   "displayName": "Ghost Cursor",
   "description": "Allows dropping ghost cursors which can later be activated for advanced multicursor editing.",
   "version": "0.0.1",
+  "license": "MIT",
+  "keywords": ["multicursor", "cursor", "editing"],
+  "icon": "images/icon.png",
+  "homepage": "https://github.com/evanglass/GhostCursor",
+  "bugs": "https://github.com/evanglass/GhostCursor/issues",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -48,5 +55,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/evanglass/GhostCursor.git"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.105.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
   }
 }
