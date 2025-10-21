@@ -1,7 +1,7 @@
 {
   "name": "ghost-cursor",
   "displayName": "Ghost Cursor",
-  "description": "Allows dropping ghost cursors with Ctrl+Alt+A and activating them with Ctrl+Alt+D.",
+  "description": "Allows dropping ghost cursors which can later be activated for advanced multicursor editing.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.105.0"
@@ -44,5 +44,9 @@
     "watch": "webpack --watch",
     "package": "webpack --mode production",
     "@vscode/test-electron": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanglass/GhostCursor.git"
   }
 }
