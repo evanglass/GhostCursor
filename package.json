@@ -4,7 +4,7 @@
   "publisher": "evanglass",
   "displayName": "Ghost Cursor",
   "description": "Allows dropping ghost cursors which can later be activated for advanced multicursor editing.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "keywords": ["multicursor", "cursor", "editing"],
   "icon": "images/icon.png",
