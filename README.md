@@ -20,8 +20,8 @@ Ghost Cursor is a Visual Studio Code extension that provides a "ghost cursor" fe
 
 ## Usage
 
-- By default the **Drop Ghost Cursor** action is assigned the keybind of **Ctrl+Alt+A**. Use this key combination to drop a ghost cursor at the current cursor position. Running the action on a position which already has a ghost cursor will remove that ghost cursor. 
-- You can then activate all the placed ghost cursors at once by running the **Activate Ghost Cursors** action, which is assigned a default keybind of **Ctrl+Alt+D**.
+- By default the **Drop Ghost Cursor** action is assigned the keybind of **Ctrl+Alt+D**. Use this key combination to drop a ghost cursor at the current cursor position. Running the action on a position which already has a ghost cursor will remove that ghost cursor. 
+- You can then activate all the placed ghost cursors at once by running the **Activate Ghost Cursors** action, which is assigned a default keybind of **Ctrl+Alt+A**.
 
 ## License
 

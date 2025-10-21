@@ -35,12 +35,12 @@
     "keybindings": [
       {
         "command": "ghost-cursor.dropGhost",
-        "key": "ctrl+alt+a",
+        "key": "ctrl+alt+d",
         "when": "editorTextFocus"
       },
       {
         "command": "ghost-cursor.activateGhosts",
-        "key": "ctrl+alt+d",
+        "key": "ctrl+alt+a",
         "when": "editorTextFocus"
       }
     ]
